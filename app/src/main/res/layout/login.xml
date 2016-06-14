@@ -12,7 +12,7 @@
         android:orientation="vertical"
         >
         <include layout="@layout/net_tips" bind:login="@{login}" />
-        <include android:id="@+id/sys_guide" layout="@layout/login_guid" />
+        <include layout="@layout/guide" bind:login="@{login}" />
         <ImageView
             android:id="@+id/login_start_ll"
             android:layout_width="match_parent"

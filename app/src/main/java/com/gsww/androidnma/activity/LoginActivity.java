@@ -14,7 +14,8 @@ public class LoginActivity extends Activity {
         super.onCreate(savedInstanceState);
         LoginBinding binding = DataBindingUtil.setContentView(this, R.layout.login);
         Login login = new Login();
-        login.isNetConnected.set(false);
+        login.isNetConnected.set(true);
+        login.isShowGuide.set(true);
         binding.setLogin(login);
     }
 }
