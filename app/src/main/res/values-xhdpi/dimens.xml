@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="toolbar_top_height">45dp</dimen><!-- 顶部工具条高度 -->
+    <dimen name="toolbar_bottom_height">45dp</dimen><!-- 底部工具条高度 -->
+</resources>

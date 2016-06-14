@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- net -->
+    <color name="net_tips_bg">#FFEFEF</color><!-- 网络不可用提示的背景色 -->
+    <color name="net_tips_text">#666666</color><!-- 网络不可用提示的文字颜色 -->
+</resources>

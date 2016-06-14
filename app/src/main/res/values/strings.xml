@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">综合办公</string>
+
+    <!-- common -->
+    <string name="img_tips">图片</string>
+
+    <!-- net -->
+    <string name="net_tips">网络连接不可用</string>
+    <string name="net_wifi">开启wifi</string>
+    <string name="net_mobile">开启移动网络</string>
+    <string name="net_setting">系统设置</string>
+</resources>

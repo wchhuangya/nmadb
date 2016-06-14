@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+    <data>
+        <import type="android.view.View" />
+        <variable
+            name="login"
+            type="com.gsww.androidnma.model.Login" />
+    </data>
+    <LinearLayout
+        android:id="@+id/net_tips_ll"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/toolbar_top_height"
+        android:orientation="horizontal"
+        android:background="@color/net_tips_bg"
+        android:gravity="center_vertical"
+        android:visibility="@{login.isNetConnected ? View.GONE : View.VISIBLE}">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/img_tips"
+            android:layout_marginLeft="20dp"
+            android:background="@mipmap/net_tips"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/net_tips"
+            android:layout_marginLeft="25dp"
+            android:textColor="@color/net_tips_text"
+            android:textSize="15sp"/>
+    </LinearLayout>
+</layout>
