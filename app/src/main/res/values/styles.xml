@@ -4,4 +4,23 @@
     <style name="AppTheme" parent="@android:style/Theme.Light.NoTitleBar">
     </style>
 
+    <!-- login -->
+    <style name="Login" />
+
+    <style name="Login.edittext"><!-- 登录输入框 -->
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">@dimen/login_edittext_height</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_marginLeft">15dp</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:background">@null</item>
+        <item name="android:textSize">@dimen/login_edittext_textsize</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+    <style name="Login.divider"><!-- 登录输入框的分隔线 -->
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0.5dp</item>
+        <item name="android:background">@color/login_divider</item>
+    </style>
+
 </resources>

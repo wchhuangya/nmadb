@@ -3,4 +3,12 @@
 
     <dimen name="toolbar_top_height">45dp</dimen><!-- 顶部工具条高度 -->
     <dimen name="toolbar_bottom_height">45dp</dimen><!-- 底部工具条高度 -->
+
+    <!-- 登录 -->
+    <dimen name="login_top_margin">40dp</dimen><!-- Logo距顶端的距离 -->
+    <dimen name="login_logo_width">220dp</dimen><!-- Logo宽度 -->
+    <dimen name="login_logo_height">80dp</dimen><!-- Logo高度 -->
+    <dimen name="login_space_between_logo_and_input">20dp</dimen><!-- logo和输入布局之间的距离 -->
+    <dimen name="login_edittext_height">40dp</dimen><!-- 输入框的高度 -->
+    <dimen name="login_edittext_textsize">17sp</dimen><!-- 输入框文字大小 -->
 </resources>

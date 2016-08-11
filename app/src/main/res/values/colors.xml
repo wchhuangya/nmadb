@@ -4,4 +4,8 @@
     <!-- net -->
     <color name="net_tips_bg">#FFEFEF</color><!-- 网络不可用提示的背景色 -->
     <color name="net_tips_text">#666666</color><!-- 网络不可用提示的文字颜色 -->
+
+    <!-- login -->
+    <color name="login_input_layout_bg">#f0f5f8</color><!-- 登录输入框所在布局背景颜色 -->
+    <color name="login_divider">#dadcde</color>
 </resources>

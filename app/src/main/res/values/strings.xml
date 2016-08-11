@@ -3,6 +3,8 @@
 
     <!-- common -->
     <string name="img_tips">图片</string>
+    <string name="account">帐号</string>
+    <string name="password">密码</string>
 
     <!-- net -->
     <string name="net_tips">网络连接不可用</string>
